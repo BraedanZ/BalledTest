@@ -7,18 +7,18 @@
     <title>Unity WebGL Player | Balled</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/v1.loader.js"></script>
+    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <script src="Build/BalledTest.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/v1.data.unityweb",
-        frameworkUrl: "Build/v1.framework.js.unityweb",
-        codeUrl: "Build/v1.wasm.unityweb",
+        dataUrl: "Build/BalledTest.data.unityweb",
+        frameworkUrl: "Build/BalledTest.framework.js.unityweb",
+        codeUrl: "Build/BalledTest.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "BraidNamage",
         productName: "Balled",
         productVersion: "1.0",
-        matchWebGLToCanvasSize: true,
+        matchWebGLToCanvasSize: true, 
         devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
