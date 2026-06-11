@@ -1,0 +1,3 @@
+d1_databases = [
+  { binding = "STATS", database_name = "balldle-player-stats", database_id = "3e9650b9-7201-401b-9dcf-63ea4514a922" }
+]
