@@ -4,11 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1298535024038592"
      crossorigin="anonymous"></script>
     <title>Unity WebGL Player | Balled</title>
   </head>
   <body style="text-align: center">
+
+  <header class="site-header">
+    <div class="header-content">
+      <h1 class="site-title">Balldle</h1>
+      <div class="header-buttons">
+        <button class="profile-btn" onclick="openProfile()">
+          <img src="icons/profile2.png" alt="Profile" width="24" height="24" />
+        </button>
+        <button class="stats-btn" onclick="openStats()">
+          <img src="icons/stats.png" alt="Stats" width="32" height="32" />
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="header-underline"></div>
+
     <div class="webgl-container">
       <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <script src="Build/BalledTest.loader.js"></script>
@@ -29,6 +46,17 @@
     <div class="break"></div>
     <p>Daily levels begin on June 14th</p>
     <div class="break"></div>
-    <p>Mobile apps coming soon!</p>
+    <p>Mobile app coming soon!</p>
+    <div class="break"></div>
+    <script>
+      function openStats() {
+        // Hook this up to your stats modal or page
+        alert("Stats coming soon!");
+      }
+      function openProfile() {
+  // Hook this up to your profile modal or page
+        alert("Profile coming soon!");
+      }
+    </script>
   </body>
 </html>

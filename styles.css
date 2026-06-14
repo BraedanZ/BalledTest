@@ -1,14 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    min-width: 640px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     overflow: hidden; /* Prevents unwanted scrollbars */
     background-color: #C6ECFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px 8px 0px;
+  background-color: #C6ECFF;
+  width: 100%;
+  position: relative;
+}
+
+.header-content {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.site-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.header-underline {
+  width: 640px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto 12px auto;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+}
+
+.profile-btn:hover {
+  opacity: 0.7;
+}
+
+.stats-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+}
+
+.stats-btn:hover {
+  opacity: 0.7;
 }
 
 .webgl-container {
@@ -18,6 +95,7 @@ html, body {
     max-height: 80vh;
     max-width: 142.22vh; /* 16:9 ratio based on height (16 / 9 * 100) */
     box-shadow: 0px 4px 20px rgba(0,0,0,0.5); /* Optional layout styling */
+    
 }
 
 .break {
@@ -35,4 +113,8 @@ html, body {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+p {
+  padding: 16px 0 0 0;
 }
