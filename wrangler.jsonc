@@ -1,9 +1,7 @@
 {
   "name": "balldle",
   "compatibility_date": "2026-06-24",
-  "assets": {
-    "directory": "."
-  },
+  "pages_build_output_dir": ".",
   "d1_databases": [
     {
       "binding": "DB",
