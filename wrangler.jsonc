@@ -1,0 +1,12 @@
+{
+  "name": "balldle",
+  "compatibility_date": "2026-06-24",
+  "pages_build_output_dir": ".",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "balldle-player-stats",
+      "database_id": "3e9650b9-7201-401b-9dcf-63ea4514a922"
+    }
+  ]
+}
