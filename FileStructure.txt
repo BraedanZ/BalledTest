@@ -1,0 +1,7 @@
+/
+├── index.html          # Unity WebGL loader + canvas
+├── Build/              # Unity .js, .wasm, .data files
+├── api/
+│   └── login.js        # Pages Function (or use _worker.js)
+├── login.html          # Optional: lightweight HTML login overlay
+└── _routes.json        # Route rules
